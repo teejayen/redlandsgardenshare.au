@@ -1,0 +1,4 @@
+Contact: mailto:security@neilen.com.au
+Encryption: https://keybase.io/tneilen
+Canonical: https://redlandsgardenshare.au/security.txt
+Preferred-Languages: en
