@@ -1,39 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Redlands Garden Share</title>
-<link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet' type='text/css'>
-<style type="text/css" media="screen">
-<!--
-* { margin: 0; padding: 0; }
-body{
-    font-family: 'Heebo', sans-serif;
-    text-align: justify;
-    height: 100%;
-    line-height: 2.0;
-}
-a { 
-    display: block;
-}
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} 
-h1 {
-    font-weight: normal;
-    font-size: 1.4em;
-    margin: 1em 0 0.5em 0;
-}
---!>
-</style>
+    <meta charset="UTF-8">
+    <title>Redlands Garden Share</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Heebo', sans-serif;
+            text-align: center; /* Centers text */
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 80%; /* Adjusts the container width */
+            max-width: 1200px; /* Maximum width */
+        }
+        img {
+            max-width: 100%; /* Makes image responsive */
+            height: auto;
+        }
+        iframe {
+            border: solid 1px #777;
+            width: 800px;
+            height: 600px;
+            max-width: 100%; /* Ensures responsiveness */
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <p><a href="https://www.facebook.com/groups/redlandsgardenshare"><img src="redlandsgardenshare.jpeg"></img></a></p><br>
-    The Redlands Garden Share has been established as a community and resource swap initiative, aimed at fostering self-reliance, sustainability, and community building. By sharing resources such as homegrown produce, seeds, edible plants, and more, we can reduce our waste, decrease dependence on supermarkets and decrease food miles, while also learning new skills and knowledge from your neighbours.
-    <br>
-    <br>
-    Join our <a href="https://www.facebook.com/groups/redlandsgardenshare">Facebook group</a> where we post up events.
+    <div class="container">
+        <a href="https://www.facebook.com/groups/redlandsgardenshare">
+            <img src="redlandsgardenshare.jpeg" alt="Redlands Garden Share">
+        </a>
+        <p>
+            The Redlands Garden Share has been established as a community and resource swap initiative, aimed at fostering self-reliance, sustainability, and community building. By sharing resources such as homegrown produce, seeds, edible plants, and more, we can reduce our waste, decrease dependence on supermarkets and decrease food miles, while also learning new skills and knowledge from your neighbours.
+        </p>
+        <p>
+            Join our <a href="https://www.facebook.com/groups/redlandsgardenshare">Facebook group</a> where we post up events.
+        </p>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=Australia%2FBrisbane&amp;bgcolor=%23ffffff&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;src=cmVkbGFuZHNnYXJkZW5zaGFyZUBnbWFpbC5jb20&amp;color=%23039BE5" frameborder="0" scrolling="no"></iframe>
+    </div>
 </body>
 </html>
